@@ -370,6 +370,12 @@
     border: none;
     padding: 14px 27px;
     width: 480px;
+    font-family: Fira Sans;
+    font-size: 14px;
+    font-weight: 480;
+    line-height: 16px;
+    letter-spacing: 0%;
+    text-align: left;
 }
 .sub-btn{
     border: none;
@@ -380,7 +386,7 @@
     font-family: Fira Sans;
     font-size: 14px;
     font-weight: 480;
-    line-height: 17px;
+    line-height: 16px;
     letter-spacing: 0%;
     text-align: left;
 }
