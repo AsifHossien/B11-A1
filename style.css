@@ -194,7 +194,7 @@
     line-height: 19px;
     letter-spacing: 0%;
     border-radius: 6.5px;
-    padding: 9px 16px;
+    padding: 12px 18px;
     border: none;
     margin-bottom: 15px;
 }
@@ -230,9 +230,8 @@
 .info{
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     align-items: flex-start;
-    
-    padding: 0px;
 }
 .donate-section{
     display: flex;
