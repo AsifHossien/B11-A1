@@ -3,10 +3,42 @@
     margin: 0;
     padding: 0;
 }
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 160px 0px;
+}
+.navbar h3{
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 26px;
+    font-weight: 560;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.navbar button{
+    box-sizing: border-box;
+    border: 1px solid rgb(0, 106, 80);
+    border-radius: 6.4px;
+    padding: 12px 24px;
+    color: rgb(0, 106, 80);
+    font-family: Fira Sans;
+    font-size: 14px;
+    font-weight: 480;
+    line-height: 18px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.navbar button:hover{
+    background: rgb(84, 144, 245);
+    color: white;
+}
 .banner-section{
     border-radius: 20px;
     background: rgb(198, 228, 214);
-    margin: 100px 160px;
+    margin: 30px 160px 80px;
     padding: 64px 80px 64px 48px;
     display: flex;
     align-items: center;
@@ -302,7 +334,7 @@
     align-items: center;
     text-align: center;
     gap: 24px;
-    margin: 100px 160px;
+    margin: 80px 160px;
     padding: 80px 64px;
     background: rgb(198, 228, 214);
     border-radius: 29px;
@@ -354,4 +386,24 @@
 }
 .sub-btn:hover{
     background: mediumturquoise;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 42px;
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 22px;
+    font-weight: 560;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 80px;
+}
+.media{
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
 }
